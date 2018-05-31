@@ -15,7 +15,7 @@ I will be using Flexbox for the layout though I will not be using SASS for the c
 
 ##### Todo List #####
 1. Create Basic Design Doc (this document)
-- Decide upon SVG's to be used from icomoon.com
+    - Decide upon SVG's to be used from icomoon.com
 2. Create Basic Html layout
 3. Create Hero image and primary Text
 4. Create Navbar
