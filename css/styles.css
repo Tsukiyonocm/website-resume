@@ -1,0 +1,113 @@
+/** Variables
+ ---------------------------------------------------------*/
+:root {
+    --primary-text: rgb(241, 241, 241);
+    --dark-green-1: rgb(43,208,104);
+    --nav-background: rgb(37,47,49);
+}
+
+
+/** Reset
+ ---------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--primary-text);
+    line-height: 1.5;
+    font-size: 2rem;
+}
+
+/** Header
+ ---------------------------------------------------------*/
+.heading-content {
+    background-image: url("../img/forest.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 95wh;
+    height: 95vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading-text {
+    font-size: 6rem;
+    font-weight: 300;
+    border-top: 2px solid var(--primary-text);
+    border-bottom: 2px solid var(--primary-text);
+    margin: 3rem 1rem;
+    text-transform: uppercase;
+}
+
+.btn-heading {
+    width: 18rem;
+    height: 6rem;
+    color: var(--primary-text);
+    border: 2px solid var(--primary-text);
+    background-color: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    transition: all .5s;
+}
+
+.btn-heading:hover {
+    color: var(--dark-green-1);
+    border: 2px solid var(--dark-green-1);
+}
+
+
+/** Navigation
+ ---------------------------------------------------------*/
+.main-navigation {
+    height: 7rem;
+    background-color: var(--nav-background);
+    display: flex;
+}
+
+.container {
+    width: 120rem;
+    margin: 0 auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    /* align-self: stretch; */
+}
+
+.user-navigation {
+    list-style: none;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    
+}
