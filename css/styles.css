@@ -40,6 +40,15 @@ body {
     font-size: 2rem;
 }
 
+/** Universal Classes
+ ---------------------------------------------------------*/
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 /** Header
  ---------------------------------------------------------*/
 .heading-content {
@@ -49,9 +58,6 @@ body {
     width: 95wh;
     height: 95vh;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
 }
 
@@ -116,7 +122,7 @@ body {
 .logo-icon {
     
     background-color: var(--dark-grey-1);
-    margin: 0 2rem;
+    margin: 0 1.7rem;
     padding: .4rem 1.5rem;
 }
 
@@ -131,9 +137,6 @@ body {
     cursor: pointer;
     text-transform: uppercase;
     
-    display: flex;
-    align-items: center;
-    justify-content: center;
     align-self: stretch;
     
 }
