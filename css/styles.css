@@ -75,7 +75,7 @@ body {
     background-image: url("../img/forest.jpg");
     background-size: cover;
     background-position: center;
-    width: 95wh;
+    width: 100vw;
     height: 95vh;
 
     flex-direction: column;
@@ -170,14 +170,36 @@ body {
 
 /** About Me Section
  ---------------------------------------------------------*/
-.about-item {
+.skill-item {
     margin: 6rem 0;
 }
 
- .about-item:not(:last-child) {
+ .skill-item:not(:last-child) {
 margin-right: 5rem;
 }
 
- .about-title {
-     font-weight: 700;
+.about-content {
+    max-width: 140rem;
+    display: flex;
+} 
+
+.about-section {
+    background-color: var(--light-grey-1);
+
+}
+
+.about-image {
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: left;
+     width: 65rem;
+ }
+
+ .about-me-text {
+    padding-top: 10rem;  
+    padding-left: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
  }
