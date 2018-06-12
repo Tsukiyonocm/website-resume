@@ -66,6 +66,7 @@ body {
 
 .content {
     font-size: 1.5rem;
+    margin-top: 5rem;
 }
 
 
@@ -175,12 +176,14 @@ body {
 }
 
  .skill-item:not(:last-child) {
-margin-right: 5rem;
+    margin-right: 5rem;
 }
 
 .about-content {
-    max-width: 140rem;
+    width: 120rem;
+    margin: 0 auto;
     display: flex;
+    justify-content: space-between;
 } 
 
 .about-section {
@@ -203,3 +206,53 @@ margin-right: 5rem;
     flex-direction: column;
     flex-wrap: nowrap;
  }
+
+.resume-brief {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.icon-web,
+.icon-edit,
+.icon-marketing,
+.icon-seo {
+    width: 4rem;
+    height: 4rem;
+    fill: var(--dark-green-1);
+    padding-top: .3rem;
+
+    flex-shrink: 0;
+}
+
+.resume-skills {
+    width: 48%;
+    margin-top: 5rem;
+    
+    display: flex;
+    align-items: flex-start;
+}
+
+.resume-skills:not(:nth-child(2n)) {
+    padding-right: 1rem;
+}
+
+
+.resume-skills-content {
+    padding-left: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.resume-title {
+    font-size: 1.8rem;
+    color: var(--title);
+    vertical-align: top;
+}
+
+.resume-content {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
