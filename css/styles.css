@@ -180,8 +180,6 @@ body {
 }
 
 .about-content {
-    width: 120rem;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 } 
@@ -255,4 +253,26 @@ body {
 .resume-content {
     font-size: 1.5rem;
     margin-top: 3rem;
+}
+
+
+/** Skills Section
+ ---------------------------------------------------------*/
+
+
+ .btn-green {
+    width: 18rem;
+    height: 6rem;
+    color: var(--dark-green-1);
+    border: 2px solid var(--dark-green-1);
+    background-color: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    transition: all .3s;
+}
+
+.btn-green:hover {
+    color: var(--dark-grey-1);
+    border: 2px solid var(--dark-grey-1);
 }
